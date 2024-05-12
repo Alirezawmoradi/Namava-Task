@@ -1,7 +1,7 @@
 function App() {
 
     return (
-        <h1>Namava Landing Page</h1>
+        <h1 className='flex justify-center items-center'>Namava Landing Page</h1>
     )
 }
 
