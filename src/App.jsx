@@ -1,7 +1,8 @@
-function App() {
+import {MainLayout} from "./layouts/main-layout.jsx";
 
+function App() {
     return (
-        <h1 className='flex justify-center items-center'>Namava Landing Page</h1>
+        <MainLayout/>
     )
 }
 
