@@ -20,7 +20,7 @@ export const LandingPage = () => {
                     <section className='bg-movie-section mt-16 bg-center bg-no-repeat flex flex-col justify-start'>
                         <div className='flex items-center justify-center'>
                             <img src={wifi} height={152.7} width={152.7} alt='wifi' className='mr-24'/>
-                            <img src={cloud} height={137} width={113} alt='cloud' className='mr-40'/>
+                            <img src={cloud} height={137} width={113} alt='cloud' className='mr-40 mb-12'/>
                         </div>
                     </section>
                 </div>
