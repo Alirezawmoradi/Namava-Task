@@ -19,7 +19,7 @@ export const TopNavigation = () => {
             {
                 menuItems.map((item) => {
                     return <li key={`navigation-${item.href}`}>
-                        <a href={item.href} className='hover:text-primary transition-colors pb-2'>
+                        <a href={item.href} className='text-sm hover:text-primary transition-colors pb-2'>
                             {item.title}
                         </a>
                     </li>
