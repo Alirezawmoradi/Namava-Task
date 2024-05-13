@@ -24,7 +24,7 @@ export const Form = () => {
                     <TextBox/>
                 </div>
                 <div className='flex items-end ml-auto mr-8 mt-2'>
-                <Button variant='orange'>ارسال</Button>
+                <Button variant='orange' type='submit'>ارسال</Button>
                 </div>
             </form>
         </div>
