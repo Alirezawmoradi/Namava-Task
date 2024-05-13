@@ -23,7 +23,8 @@ export default {
         },
         extend: {
             backgroundImage: {
-                'landing-background': "url('/images/background-feedback-home-1 1.svg')"
+                'landing-background': "url('/images/background-feedback-home-1 1.svg')",
+                'movie-section':"url('/images/pic2.png')"
             }
         },
     },

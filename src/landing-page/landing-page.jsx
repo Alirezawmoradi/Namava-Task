@@ -1,7 +1,6 @@
-import title from '/public/images/title line.png'
-import movie from '/public/images/pic2.png'
-import wifi from '/public/images/wifiicon.png'
-import cloud from '/public/images/cloud.png'
+import title from '/images/title line.png'
+import wifi from '/images/wifiicon.png'
+import cloud from '/images/cloud.png'
 import {Form} from "../components/form/form.jsx";
 
 export const LandingPage = () => {
@@ -18,13 +17,12 @@ export const LandingPage = () => {
                 </div>
                 <div className='flex justify-between px-44'>
                     <Form/>
-                    <div className='flex flex-col'>
-                        <div className='flex absolute items-center justify-center pb-20'>
-                            <img src={wifi} height={152.7} width={152.7} alt='wifi' className='mr-24 mt-20'/>
+                    <section className='bg-movie-section mt-16 bg-center bg-no-repeat flex flex-col justify-start'>
+                        <div className='flex items-center justify-center'>
+                            <img src={wifi} height={152.7} width={152.7} alt='wifi' className='mr-24'/>
                             <img src={cloud} height={137} width={113} alt='cloud' className='mr-40'/>
                         </div>
-                        <img src={movie} height={500} width={500} alt='movie' className='mt-32'/>
-                    </div>
+                    </section>
                 </div>
             </section>
         </>
