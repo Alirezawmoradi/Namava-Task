@@ -4,11 +4,11 @@ import {Footer} from "../components/footer/footer.jsx";
 
 export const MainLayout = () => {
     return (
-        <div className='min-h-screen grid grid-rows-[84px_1fr_auto] text-base-content' dir='rtl'>
+        <div className='min-h-screen grid grid-rows-[84px_1fr_auto] text-base-content bg-white' dir='rtl'>
             <Header/>
-            <div className='flex-1 flex justify-center items-center'>
+            <main>
                 <LandingPage/>
-            </div>
+            </main>
             <Footer/>
         </div>
     )
