@@ -1,7 +1,9 @@
 export const LandingPage = () => {
     return (
-        <div className='flex justify-center font-bold items-center text-3xl mt-10'>
-            <h1> Namava Landing Page</h1>
-        </div>
+        <>
+            <section className='bg-landing-background h-[1019px] stroke-black drop-shadow bg-center bg-no-repeat -translate-y-6'>
+
+            </section>
+        </>
     )
 }
