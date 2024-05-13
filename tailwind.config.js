@@ -14,6 +14,9 @@ export default {
             white:'#F5F5F5',
             header:'#FEFEFE',
             transparent: "transparent",
+            ghost:'#D9D9D9',
+            error: "#f87272",
+            required:'#FF0000'
         },
         container: {
             center: true
