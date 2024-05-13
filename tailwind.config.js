@@ -8,10 +8,12 @@ export default {
         colors: {
             "orange": '#F36339',
             "base-content": '#303539',
+            "base-100":'#FFFFFF',
             primary: "#2a68ff",
             black:'#000000',
             white:'#F5F5F5',
-            header:'#FEFEFE'
+            header:'#FEFEFE',
+            transparent: "transparent",
         },
         container: {
             center: true

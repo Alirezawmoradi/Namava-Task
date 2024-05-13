@@ -1,6 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "tailwind/components.css";
+
 
 @font-face {
     font-family: iranyekan;
@@ -52,12 +55,13 @@
     src: url(/fonts/iranyekan/woff2/iranyekanwebextrablack.woff2) format("woff2")
 }
 
-@layer base{
+@layer base {
     :root {
         --bs-font-sans-serif: IranSans;
         --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         --bs-gradient: linear-gradient(180deg, hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, 0))
     }
+
     body {
         font-family: iranyekan, serif;
         font-size: 1rem;

@@ -3,7 +3,7 @@ import classNames from "classnames";
 const sizeClasses = {
     tiny: 'btn-xs',
     small: 'btn-sm',
-    normal: '',
+    normal: 'btn-md',
     large: 'btn-lg'
 }
 
@@ -17,7 +17,6 @@ export const Button = ({
                            variant,
                            size = 'normal',
                            isDisabled = false,
-                           isOutline = false,
                            shape = "default",
                            isLoading = false,
                            loadingType = "spinner",
@@ -30,7 +29,6 @@ export const Button = ({
     const classes = classNames(
         'btn',
         className,
-        {'btn-outline': isOutline},
         {'pointer-events-none opacity-80': isLoading},
         {[`btn-${variant}`]: variant},
         {[`${sizeClasses[size]}`]: size},
