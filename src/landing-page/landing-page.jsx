@@ -2,6 +2,7 @@ import title from '/public/images/title line.png'
 import movie from '/public/images/pic2.png'
 import wifi from '/public/images/wifiicon.png'
 import cloud from '/public/images/cloud.png'
+import {Form} from "../components/form/form.jsx";
 
 export const LandingPage = () => {
     return (
@@ -16,10 +17,7 @@ export const LandingPage = () => {
                         همکاران ما در سریع‌ترین هنگام با شما تماس بگیرند.</p>
                 </div>
                 <div className='flex justify-between px-44'>
-                    <div
-                        className='w-[676px] h-[598px] bg-base-100 mt-16 rounded-[20px] border border-base-content border-opacity-10 shadow-md mr-28'>
-
-                    </div>
+                    <Form/>
                     <div className='flex flex-col'>
                         <div className='flex absolute items-center justify-center pb-20'>
                             <img src={wifi} height={152.7} width={152.7} alt='wifi' className='mr-24 mt-20'/>
