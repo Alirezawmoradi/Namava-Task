@@ -1,0 +1,6 @@
+.label {
+    @apply mb-3 font-normal;
+    &-error {
+        @apply text-error;
+    }
+}
