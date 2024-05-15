@@ -15,11 +15,11 @@ const menuItems = [
 ]
 export const TopNavigation = () => {
     return (
-        <ul className='flex gap-x-12 mr-12'>
+        <ul className='flex md:gap-x-12 md:mr-12 gap-x-6 mr-3'>
             {
                 menuItems.map((item) => {
                     return <li key={`navigation-${item.href}`}>
-                        <a href={item.href} className='text-sm hover:text-primary transition-colors duration-200 pb-2'>
+                        <a href={item.href} className='md:text-sm text-xs hover:text-primary transition-colors duration-200 pb-2'>
                             {item.title}
                         </a>
                     </li>
