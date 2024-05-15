@@ -7,7 +7,7 @@ export const LandingPage = () => {
     return (
         <>
             <section
-                className='bg-landing-background container lg:h-[1019px] min-w-full stroke-black drop-shadow-sm bg-center bg-no-repeat'>
+                className='bg-landing-background container lg:h-[1019px] min-w-full md:min-w-full stroke-black drop-shadow-sm bg-center bg-no-repeat'>
                 <div className='flex flex-col container lg:text-right lg:items-start justify-center items-center lg:px-44 lg:pt-20 px-10 pt-10'>
                     <h3 className='font-extrabold text-sm lg:text-base'>دریافت سرویس</h3>
                     <img src={title} height={10.34} width={100} alt='title'/>
