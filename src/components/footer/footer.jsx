@@ -3,13 +3,13 @@ import {IconEmail, IconMessage, IconPhone} from "../icons/icons";
 export const Footer = () => {
     return (
         <>
-            <div className='flex px-48'>
+            <div className='flex md:px-48 px-3'>
             <div className='gradient-first mb-0 mt-2'></div>
             <div className='gradient-second mb-0 mt-2'></div>
             </div>
             <footer
-                className="container bg-base-100 text-base-content w-[1449px] border border-base-100 border-opacity-4 flex flex-col lg:flex-row items-center gap-5 px-0  lg:px-12 xl:px-40 py-20 drop-shadow">
-                <div className="flex flex-1 flex-col md:flex-row gap-5 md:gap-6 whitespace-nowrap">
+                className="container bg-base-100 text-base-content lg:w-[1449px] border border-base-100 border-opacity-4 flex flex-col lg:flex-row items-center gap-5 px-0  lg:px-12 xl:px-40 py-20 drop-shadow">
+                <div className="flex flex-1 flex-col md:flex-row gap-5 lg:gap-6 md:gap-x-44 whitespace-nowrap">
                     <div className="grid flex-1 basis-36 gap-3 place-items-center md:place-items-start text-sm font-bold">
                         <a className="cursor-pointer hover:text-primary transition-colors duration-200">
                             پیشنهاد های جشنواره
