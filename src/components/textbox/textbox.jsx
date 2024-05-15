@@ -10,7 +10,7 @@ const sizeClasses = {
 export const TextBox = ({variant = 'ghost', type = 'text', className, size = 'normal', ...rest}) => {
     const classes = classNames(
         'textbox',
-        'w-[612px]',
+        'md:w-[612px] w-72',
         className,
         {[`textbox-${variant}`]: variant},
         {[`${sizeClasses[size]}`]: size}
