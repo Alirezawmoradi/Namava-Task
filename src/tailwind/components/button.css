@@ -1,5 +1,5 @@
 .btn {
-    @apply h-8 lg:h-12 w-[140px] px-7 border cursor-pointer select-none;
+    @apply h-8 lg:h-12 lg:w-[140px] md:w-full px-7 border cursor-pointer select-none;
     @apply items-center justify-center border-transparent transition duration-200 ease-in-out rounded-full;
 
     @apply border-base-content bg-base-content text-base-100 outline-base-content;
