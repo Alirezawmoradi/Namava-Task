@@ -1,5 +1,4 @@
 import title from '/images/title line.png'
-
 import {Form} from "../components/form/form.jsx";
 import {MovieSection} from "../components/movie-section/movie-section.jsx";
 
