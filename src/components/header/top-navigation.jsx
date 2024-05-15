@@ -15,7 +15,7 @@ const menuItems = [
 ]
 export const TopNavigation = () => {
     return (
-        <ul className='flex md:gap-x-12 md:mr-12 gap-x-6 mr-3'>
+        <ul className='flex md:gap-x-12 md:mr-12 gap-x-4 mr-0.5 ml-6 '>
             {
                 menuItems.map((item) => {
                     return <li key={`navigation-${item.href}`}>
